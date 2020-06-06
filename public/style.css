@@ -1,0 +1,376 @@
+.navbar-brand img{
+width: auto;
+height: 80px;
+}
+.navbar{
+    background-color:	#483D8B !important; 
+    
+}
+
+
+
+.nav-link:hover{
+  font: bold !important;
+  color: blue !important;
+
+
+
+}
+.navbar-text{
+    font-weight: bold;
+}
+.main_card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    color: #483D8B !important;
+ 
+
+}
+.items{
+
+    color: #483D8B;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font: bold;
+    font-style: italic;
+
+
+}
+
+
+.card1,.card2,.card3{
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+    font-size: 30px;
+    height: 50px;
+    box-shadow: 2px 3px 4px gray;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.service{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 30px;
+
+
+}
+
+.card4,.card5,.card6,.card7{
+  box-shadow: 2px 3px 4px gray;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: #483D8B;
+}
+.aboutus{
+  width: 300px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+
+
+    .card1,.card2,.card3{
+        width: 100%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 600px){
+
+  .card4,.card5,.card6,.card7{
+    width: 100%;
+  }
+
+
+
+}
+.heading{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+    color: #483D8B;
+}
+.cart{
+    margin-top: 30px;
+}
+
+.card-img-top{
+  width: 250px;
+  height: 200px;
+}
+
+.fa-motorcycle, .fa-ship,.fa-car,.fa-commenting,.fa-money,.fa-truck,.fa-headphones{
+  color: #483D8B !important;
+  margin-right: 10px;
+
+}
+
+
+.colr a{
+  color: #483D8B !important;
+  text-decoration: none;
+}
+
+
+.btn{
+  background-color: #483D8B;
+}
+
+
+.ending{
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  color: white;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+ .copyr8{
+   background-color: #483D8B;
+   color: white;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+ }
+
+
+
+ .fa-arrow-circle-up{
+ position: fixed;
+ /* overflow: hidden; */
+ /* width: 104px !important;
+ height: 104px !important; */
+ /* background-color: #483D8B; */
+ bottom: 40px !important;
+ right: 50px !important;
+ text-decoration: none !important;
+ text-align: center !important;
+ line-height: 50px !important;
+ color: #483D8B !important;
+ font-size: 60px !important;
+
+
+
+ }
+
+.pagination{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+.sport{
+  text-align: center;
+
+}
+
+
+
+
+
+
+form {
+    border: 3px solid #f1f1f1;
+  }
+  
+
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+
+  button:hover {
+    opacity: 0.8;
+  }
+  
+
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+ 
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+ 
+  .container {
+    padding: 16px;
+  }
+  
+ 
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+
+
+  {box-sizing: border-box}
+
+ 
+    input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+
+ 
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
+  
+
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  
+
+  .container {
+    padding: 16px;
+  }
+  
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+      width: 100%;
+    }
+  }
+
+  .back{
+    background-color: #483D8B !important;
+    margin-top: 0px;
+    
+        
+  }
+  .back:hover{
+    opacity: 1;
+  }
+
+
+  
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+  opacity: 1;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
